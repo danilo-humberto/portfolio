@@ -1,9 +1,15 @@
+import './root.css'
 import './App.css'
 
+import HeaderComponent from './components/header/Header'
+
 function App() {
+
   return (
     <>
-      teste
+      <div className={`container dark-mode`}>
+        <HeaderComponent />
+      </div>
     </>
   )
 }

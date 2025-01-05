@@ -1,0 +1,9 @@
+{
+    "translation": {
+        "nav" : {
+            "home": "Home",
+            "about": "Sobre",
+            "projects": "Projetos"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+:root {
+    --bg-color-dark: #212121;
+    --bg-color-bright-dark: #2B2A2A;
+    --bg-color-brighter-dark: #413F3F;
+    --default-color-dark: white;
+
+    --bg-color-bright: #F2F2F2;
+    --bg-color-default-bright: white;
+    --bg-color-white-icons: #F1F1F1;
+    --default-color-white: black;
+}
