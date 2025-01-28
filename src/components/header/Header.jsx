@@ -1,26 +1,27 @@
 import { useTranslation } from "react-i18next";
-import { IoSunny } from "react-icons/io5";
 import './Header.css'
+import SwitchTheme from "../switchTheme/SwitchTheme";
+import SwitchLanguage from "../switchLanguage/SwitchLanguage";
 
 const Header = () => {
   const { t } = useTranslation();
 
   return (
     <header>
-      <div className="header-logo">
+      <div className="container-header">
         <span>D</span>
-      </div>
-
-      <nav>
-        <ul>
-          <li><a href="">{t("nav.home")}</a></li>
-          <li><a href="">{t("nav.about")}</a></li>
-          <li><a href="">{t("nav.projects")}</a></li>
-        </ul>
-      </nav>
-
-      <div className="switches">
-        <IoSunny size={'1.8em'}/>
+        <nav>
+          <ul>
+            <li><a href="">{t("nav.home")}</a></li>
+            <li><a href="">{t("nav.about")}</a></li>
+            <li><a href="">{t("nav.skills")}</a></li>
+            <li><a href="">{t("nav.projects")}</a></li>
+          </ul>
+        </nav>
+        <div className="switches">
+          <SwitchLanguage />
+          <SwitchTheme />
+        </div>
       </div>
     </header>
   );
