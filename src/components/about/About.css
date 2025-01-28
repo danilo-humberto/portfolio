@@ -1,0 +1,44 @@
+.about-container {
+    background-color: var(--secondary-background-color);
+    padding: 20px;
+    display: flex;
+    height: 300px;
+    z-index: 5;
+    gap: 1.5rem;
+    width: 85%;
+    margin: 0 auto 40px auto;
+    color: var(--text-color);
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.vertical-line {
+    width: 5px;
+    height: 100%;
+    background-color: var(--text-color);
+}
+
+.a-content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 10px;
+    text-align: start;
+    text-align: justify;
+    line-height: 2rem
+}
+
+.a-content > :nth-child(2) {
+    color: var(--gray);
+}
+
+.about-container > img {
+    position: absolute;
+    right: 0px;
+    top: -10px;
+    width: 100px;
+    height: 100px;
+    transform: rotate(10deg);
+}
