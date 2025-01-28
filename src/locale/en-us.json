@@ -3,7 +3,24 @@
         "nav" : {
             "home": "Home",
             "about": "About",
-            "projects": "Projects"
+            "projects": "Projects",
+            "skills": "Skills"
+        },
+        "hero" : {
+            "leftSide": {
+                "span1" : "Hy! Call me",
+                "h1" : "Danilo Humberto",
+                "p": "And I'm a Front-end Developer with experience in ReactJS.",
+                "github-btn" : "GitHub",
+                "linkedin-btn" : "LinkedIn"
+            }
+        },
+        "about": {
+            "title": "About me",
+            "description": "My name is Danilo Humberto, and I'm a Front-End developer passionate about creating intuitive and functional interfaces. I stand out for my ability to quickly learn new technologies and for contributing creative and functional solutions that add value to projects. My goal is to continue improving my skills and collaborate with teams that value excellence and innovation."
+        },
+        "skills": {
+            "title": "Skills"
         }
     }
 }
