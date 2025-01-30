@@ -1,0 +1,119 @@
+.project-container {
+    background-color: var(--secondary-background-color);
+    width: 85%;
+    margin: 0 auto 20px auto;
+    border-radius: 10px;
+    padding: 20px;
+    color: var(--text-color);
+    overflow-x: hidden;
+}
+
+.project-container h2 {
+    text-align: center;
+}
+
+.p-box {
+    display: flex;
+    background-color: var(--primary-background-color);
+    margin: 3rem auto 40px auto;
+    border-radius: 10px;
+}
+
+.p-box > :nth-child(1) {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+}
+
+.p-box-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.p-box-content > p {
+    margin-bottom: 5rem;
+}
+
+.p-box-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.p-box-header-imgs {
+    display: flex;
+    gap: 1rem;
+}
+
+.p-box-header-imgs > * {
+    width: 20px;
+    height: 20px;
+}
+
+.p-box-content-btns {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.p-box-content-btns > :nth-child(1) {
+    background-color: var(--background-btn-project);
+    padding: 10px;
+    color: var(--text-color-btn);
+    font-size: 0.8rem;
+    border-radius: 5px;
+    will-change: transform;
+    transition: transform 0.3s ease;
+}
+
+.p-box-content-btns > :nth-child(1):hover {
+    transform: scale(1.1);
+}
+
+.p-box-content-btns > :nth-child(2) {
+    background-color: var(--secondary-background-color);
+    padding: 10px;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    will-change: transform;
+    transition: transform 0.3s ease;
+    color: var(--text-color);
+}
+
+.p-box-content-btns > :nth-child(2):hover {
+    transform: scale(1.1);
+}
+
+  .swiper-slide-prev,
+  .swiper-slide-next {
+    transform: scale(0.9);
+    opacity: 0.7;
+  }
+
+ .swiper-pagination .swiper-pagination-bullet-active {
+    background: var(--text-color);
+  }
+
+  @media screen and (max-width: 1650px) {
+    .project-container {
+        width: 90%;
+    }
+
+    .p-box > :nth-child(1) {
+        width: 300px;
+        height: 300px;
+        object-position: 90%;
+    }
+  }
+
+  @media screen and (max-width: 1300px) {
+
+    .p-box > :nth-child(1) {
+        width: 250px;
+        height: 300px;
+        object-position: 85%;
+    }
+  }

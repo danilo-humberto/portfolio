@@ -42,3 +42,13 @@
     height: 100px;
     transform: rotate(10deg);
 }
+
+@media screen and (max-width: 1650px) {
+    .about-container {
+        width: 90%;
+    }
+
+    .a-content {
+        line-height: 1.5rem;
+    }
+}

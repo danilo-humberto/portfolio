@@ -3,4 +3,5 @@
     height: 100vh;
     padding: 0 13rem;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }

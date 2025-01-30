@@ -6,7 +6,7 @@ const Hero = () => {
   const { t } = useTranslation();
 
   return (
-    <main className="hero-container">
+    <main className="hero-container" id="home">
       <div className="h-left">
         <span>{t("hero.leftSide.span1")}</span>
         <h1>{t("hero.leftSide.h1")}</h1>

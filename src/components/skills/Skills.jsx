@@ -5,7 +5,7 @@ const Skills = () => {
 
     const { t } = useTranslation();
   return (
-    <section className='skills-container'>
+    <section className='skills-container' id='skills'>
         <h2>{t('skills.title')}</h2>
         <div className="skills-div">
             <div className="skills-icon">

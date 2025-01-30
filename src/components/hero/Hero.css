@@ -47,7 +47,6 @@
 }
 
 .h-buttons > a:hover {
-    background-color: var(--tertiary-background-color);
     transform: scale(1.1);
 }
 
@@ -75,4 +74,14 @@
     position: absolute;
     background-color: var(--transparency);
     border-radius: 50%;
+}
+
+@media screen and (max-width: 1650px) {
+    .h-left {
+        padding-left: 2rem;
+    }
+
+    .h-right {
+        padding-left: 10rem;
+    }
 }

@@ -38,3 +38,9 @@
 .skills-icon > span {
     color: var(--gray);
 }
+
+@media screen and (max-width: 1650px) {
+    .skills-container {
+        width: 90%;
+    }
+}

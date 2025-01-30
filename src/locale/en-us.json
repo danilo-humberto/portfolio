@@ -21,6 +21,22 @@
         },
         "skills": {
             "title": "Skills"
+        },
+        "project": {
+            "title": "My Projects",
+            "box": {
+                "header": {
+                    "title": "Pokedex"
+                },
+            "box-content": {
+                "paragraph" : "First project to internalize basic concepts of HTML, CSS and JavaScript.",
+                "first-a": "View Project",
+                "second-a": "Repository"
+                }
+            }
+        },
+        "footer": {
+            "text": "{{year}} Danilo Humberto. All rights reserved."
         }
     }
 }
