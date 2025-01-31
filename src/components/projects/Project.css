@@ -109,11 +109,15 @@
     }
   }
 
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1400px) {
+
+    .project-container {
+        width: 100%;
+    }
 
     .p-box > :nth-child(1) {
-        width: 250px;
+        width: 200px;
         height: 300px;
-        object-position: 85%;
+        object-position: 80%;
     }
   }

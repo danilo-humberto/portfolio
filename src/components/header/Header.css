@@ -49,3 +49,15 @@ nav ul li a:hover {
     align-items: center;
     gap: 20px;
 }
+
+@media screen and (max-width: 1250px) {
+    nav ul {
+        gap: 70px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    nav ul {
+        gap: 40px;
+    }
+}

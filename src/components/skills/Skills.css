@@ -44,3 +44,9 @@
         width: 90%;
     }
 }
+
+@media screen and (max-width: 1400px) {
+    .skills-container {
+        width: 100%;
+    }
+}
