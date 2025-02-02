@@ -10,7 +10,6 @@
     color: var(--text-color);
     border-radius: 10px;
     position: relative;
-    overflow: hidden;
 }
 
 .vertical-line {
@@ -63,5 +62,25 @@
 
     .a-content > :nth-child(2) {
         font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .about-container {
+        width: 90%;
+        scroll-margin-top: 100px;
+    }
+
+    .a-content > h2 {
+        font-size: 1.5rem;
+    }
+
+    .a-content >:nth-child(2) {
+        font-size: 0.8rem;
+    }
+
+    .about-container > img {
+        width: 80px;
+        height: 80px;
     }
 }

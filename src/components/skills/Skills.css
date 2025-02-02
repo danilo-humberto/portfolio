@@ -50,3 +50,13 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .skills-container {
+        width: 90%;
+    }
+
+    .skills-icon > span {
+        font-size: 0.8rem;
+    }
+}

@@ -131,7 +131,25 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .hero-container {
-        padding: 0;
+    .hero-container{
+        flex-direction: column;
+        margin-bottom: 3rem;
+        scroll-margin-top: 110px;
+    }
+
+    .h-left {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+
+    .h-left >:nth-child(3) {
+        text-align: center;
+    }
+}
+
+@media (max-width: 850px) {
+    .h-left {
+        flex: 1;
     }
 }
