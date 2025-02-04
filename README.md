@@ -1,8 +1,40 @@
-# React + Vite
+# 💼 Meu Portfólio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao meu portfólio! Este projeto apresenta meus trabalhos, habilidades e projetos desenvolvidos.  
 
-Currently, two official plugins are available:
+🔗 **Acesse o portfólio aqui**: [Seu link aqui](#)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Demonstração
+
+![Preview do Portfólio](./public/preview-portfolio.png) <!-- Substitua '#' pelo link da imagem ou gif -->
+
+## 🚀 Tecnologias Utilizadas
+
+- ⚛️ React  
+- 🎨 CSS Puro  
+- 🌍 i18n (Internacionalização)  
+- 🔆🌙 Dark Mode / Bright Mode  
+- 📱 Responsivo para diferentes dispositivos
+
+## 🛠 Como Rodar Localmente
+
+Para rodar o projeto na sua máquina, siga os passos abaixo:
+
+```sh
+# Clone o repositório
+git clone https://github.com/danilo-humberto/portfolio.git
+
+# Acesse a pasta do projeto
+cd portfolio
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor local
+npm run dev
+```
+
+## 📩 Contato
+
+- 📧 Email: danilohumberto12@hotmail.com
+- 💼 LinkedIn: [Danilo Humberto](https://www.linkedin.com/in/danilo-humberto-28a771215/)
