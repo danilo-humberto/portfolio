@@ -60,7 +60,7 @@ nav ul li a:hover {
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1115px) {
   nav {
     display: none;
   }
@@ -86,5 +86,19 @@ nav ul li a:hover {
 
   .menu {
     display: block;
+  }
+}
+
+@media (max-width: 500px) {
+  .container-header {
+    width: 90%;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .switches {
+    gap: 10px;
   }
 }

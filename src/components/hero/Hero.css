@@ -133,7 +133,6 @@
 @media screen and (max-width: 1024px) {
     .hero-container{
         flex-direction: column;
-        margin-bottom: 3rem;
         scroll-margin-top: 110px;
     }
 
@@ -151,5 +150,37 @@
 @media (max-width: 850px) {
     .h-left {
         flex: 1;
+    }
+}
+
+@media (max-width: 400px) {
+    .h-left > :nth-child(2) {
+        font-size: 2rem;
+    }
+
+    .h-left > :nth-child(3) {
+        width: 300px;
+    }
+}
+
+@media (max-height: 950px) {
+    .hero-container {
+        height: 75vh;
+    }
+    .h-left {
+        padding-bottom: 0px;
+    }
+}
+
+@media (max-height: 850px) {
+    
+    .h-left {
+        padding-bottom: 0px;
+    }
+}
+
+@media (max-height: 800px) {
+    .hero-container {
+        height: 85vh;
     }
 }

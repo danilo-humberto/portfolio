@@ -1,27 +1,28 @@
-import './root.css'
-import './App.css'
+import "./root.css";
+import "./App.css";
 
-import HeaderComponent from './components/header/Header'
-import Hero from './components/hero/Hero'
-import About from './components/about/About'
-import Skills from './components/skills/Skills'
-import Project from './components/projects/Project'
-import Footer from './components/footer/Footer'
+import HeaderComponent from "./components/header/Header";
+import Hero from "./components/hero/Hero";
+import About from "./components/about/About";
+import Skills from "./components/skills/Skills";
+import Project from "./components/projects/Project";
+import Footer from "./components/footer/Footer";
 
 function App() {
-
   return (
     <>
       <div className={`container`}>
         <HeaderComponent />
-        <Hero />
-        <About />
+        <div className="component-container">
+          <Hero />
+          <About />
+        </div>
         <Skills />
         <Project />
         <Footer />
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

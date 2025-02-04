@@ -9,3 +9,9 @@
         font-size: 0.9rem;
     }
 }
+
+@media (max-width: 500px) {
+    .footer-container {
+        font-size: 0.7rem;
+    }
+}

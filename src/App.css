@@ -6,10 +6,17 @@
   scroll-behavior: smooth;
 }
 
+.component-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
 @media screen and (max-width: 1650px) {
   .container {
     max-width: 1150px;
   }
+  
 }
 
 @media screen and (max-width: 1400px) {
@@ -27,5 +34,17 @@
 @media screen and (max-width: 1024px) {
   .container {
     scroll-margin-top: 20px;
+  }
+}
+
+@media (min-height: 800px) {
+  .component-container {
+    gap: 2rem;
+  }
+}
+
+@media (max-height: 780px) {
+  .component-container {
+    gap: 3rem;
   }
 }

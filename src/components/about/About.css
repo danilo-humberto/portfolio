@@ -45,6 +45,7 @@
 @media screen and (max-width: 1650px) {
     .about-container {
         width: 90%;
+        scroll-margin-top: 80px;
     }
 
     .a-content {
@@ -82,5 +83,37 @@
     .about-container > img {
         width: 80px;
         height: 80px;
+    }
+}
+
+@media (max-width: 700px) {
+    .a-content {
+        width: 80%;
+    }
+}
+
+@media (max-width: 500px) {
+    .a-content {
+        width: 100%;
+    }
+
+    .a-content >:nth-child(2) {
+        line-height: 1.2rem;
+    }
+
+    .about-container > img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 400px) {
+    .about-container {
+        gap: 0.5rem;
+        padding: 15px;
+    }
+
+    .a-content {
+        gap: 0.5rem;
     }
 }
