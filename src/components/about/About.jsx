@@ -12,7 +12,7 @@ const About = () => {
         <h2>{t('about.title')}</h2>
         <p>{t('about.description')}</p>
       </div>
-      <img src="/mark2.png" alt="imagem das aspas" />
+      <img src="./mark2.png" alt="imagem das aspas" />
     </section>
   )
 }

@@ -32,49 +32,49 @@ const Skills = () => {
         >
           <SwiperSlide>
             <div className="skills-icon">
-              <img src={import.meta.env.VITE_PUBLIC_URL + "/html.png"} alt="logo do html" />
+              <img src="./html.png" alt="logo do html" />
               <span>HTML5</span>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="skills-icon">
-              <img src="/css-3.png" alt="logo do css" />
+              <img src="./css-3.png" alt="logo do css" />
               <span>CSS3</span>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="skills-icon">
-              <img src="/js.png" alt="logo do js" />
+              <img src="./js.png" alt="logo do js" />
               <span>JavaScript</span>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="skills-icon">
-              <img src="/sass.png" alt="logo do sass" />
+              <img src="./sass.png" alt="logo do sass" />
               <span>Sass</span>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="skills-icon">
-              <img src="/react.png" alt="logo do react" />
+              <img src="./react.png" alt="logo do react" />
               <span>React JS</span>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="skills-icon">
-              <img src="/git.png" alt="logo do git" />
+              <img src="./git.png" alt="logo do git" />
               <span>Git</span>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="skills-icon">
-              <img src="/github.png" alt="logo do github" />
+              <img src="./github.png" alt="logo do github" />
               <span>Github</span>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="skills-icon">
-              <img src="/node-js.png" alt="logo do node" />
+              <img src="./node-js.png" alt="logo do node" />
               <span>Node JS</span>
             </div>
           </SwiperSlide>
