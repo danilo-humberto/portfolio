@@ -33,7 +33,7 @@ const Hero = () => {
       </div>
       <div className="h-right">
         <div>
-          <img src="/teste.jpg" alt="foto de perfil" />
+          <img src="/perfil-img.jpg" alt="foto de perfil" />
           <div></div>
         </div>
       </div>

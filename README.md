@@ -6,7 +6,7 @@ Bem-vindo ao meu portfólio! Este projeto apresenta meus trabalhos, habilidades 
 
 ## 📸 Demonstração
 
-![Preview do Portfólio](./public/preview-portfolio.png) <!-- Substitua '#' pelo link da imagem ou gif -->
+![Preview do Portfólio](./public/preview-portfolio.png) 
 
 ## 🚀 Tecnologias Utilizadas
 
