@@ -32,7 +32,7 @@ const Skills = () => {
         >
           <SwiperSlide>
             <div className="skills-icon">
-              <img src="/html.png" alt="logo do html" />
+              <img src={import.meta.env.VITE_PUBLIC_URL + "/html.png"} alt="logo do html" />
               <span>HTML5</span>
             </div>
           </SwiperSlide>
